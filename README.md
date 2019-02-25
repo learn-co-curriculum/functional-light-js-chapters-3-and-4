@@ -187,6 +187,10 @@ Helper utilities like `not()` or `when()` to reduce points in a refactor.
 
 Point-free is cool, but use your judgement. It can be a lot of jumping through hoops to improve readability and may degrade readability if taken too far.
 
+##Questions
+
+1. Are there places within Ironboard that could benefit from currying or partial application?
+
 #Chapter 4 - Composing Functions
 
 Functional programming: seeing every function like a Lego piece. Small on its own, but useful to put together with others.
@@ -351,3 +355,5 @@ function trackEvent(evt) {
 }
 ```
 - Composition is valuable if there is only one occurence vs DRY. Agree?
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/functional-light-js-chapters-3-and-4'>Functional Light Js Chapters 3 And 4</a> on Learn.co and start learning to code for free.</p>
